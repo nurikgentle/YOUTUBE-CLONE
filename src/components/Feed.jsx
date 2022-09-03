@@ -5,7 +5,7 @@ import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos, Sidebar } from "./";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Как Дела? ");
+  const [selectedCategory, setSelectedCategory] = useState("новые видео");
   const [videos, setVideos] = useState(null);
 
   useEffect(() => {
